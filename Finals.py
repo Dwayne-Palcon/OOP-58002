@@ -1,9 +1,4 @@
 from tkinter import *
-
-window = Tk()
-window.title("Finding Smallest Number")
-window.geometry("550x350+20+100")
-
 def findSmallest():
     L = []
     L.append(eval(Num1.get()))
@@ -52,3 +47,7 @@ btn1 = Button(window,text = "The smallest number among the three is:",command = 
 btn1.grid(row=4, column = 1, pady=5, padx=5)
 
 mainloop()
+
+window = Tk()
+window.title("Finding Smallest Number")
+window.geometry("550x350+20+100")
